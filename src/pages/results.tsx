@@ -4,9 +4,8 @@ import { useRouter } from 'next/router';
 import { useEffect } from 'react';
 import Link from 'next/link';
 import { ToastContainer, toast } from 'react-toastify';
-
-
-function ResultsPage({ data }) {
+;
+function ResultsPage({ data } : any) {
     let dat;
     dat = JSON.parse(data);
 
