@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Head from "next/head";
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
-import DisplayRankedRecipes from '../../components/rankedDocs';
 import Link from 'next/link';
 import { ToastContainer, toast } from 'react-toastify';
 
