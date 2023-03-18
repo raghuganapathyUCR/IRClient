@@ -158,7 +158,7 @@ function ResultsPage({ data } : any) {
     }
 }
 
-export async function getServerSideProps({ query }) {
+export async function getServerSideProps({ query }:any) {
     const { data } = query;
     if (data === undefined) {
         return {
